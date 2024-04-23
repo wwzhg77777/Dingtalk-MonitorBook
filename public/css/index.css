@@ -1,0 +1,269 @@
+*,
+*:hover,
+*::before,
+*::after {
+    transition: all 0.3s;
+}
+
+.layui-body,
+.layui-side.layui-bg-black,
+.layui-logo.layui-hide-xs.layui-bg-black,
+.layui-nav-item.layui-this a {
+    transition: all 0.3s;
+}
+
+/* 指定css属性-start */
+button.tool-opacity:hover {
+    opacity: 1;
+    background-color: #009688cc;
+}
+
+/* 指定css属性-end */
+
+/* 顶部栏-start */
+.layui-layout-admin .layui-menu {
+    display: flex;
+    background-color: #282828;
+    width: calc(100% - 220px);
+    height: 60px;
+    left: 220px;
+    margin: 0;
+    padding-left: 5px;
+    justify-content: space-between;
+}
+
+.layui-menu .layui-menu-panel {
+    display: flex;
+    width: 70%;
+    align-items: flex-end;
+}
+
+.layui-menu .layui-menu-panel .layui-menu-panel-item {
+    color: #181818;
+    text-align: center;
+    display: none;
+    /* display: inline-block; */
+    padding: 0;
+    margin-right: 2px;
+    width: 200px;
+    line-height: 45px;
+    background: #d8d8d8;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Source Han Sans CN-Bold, Source Han Sans CN;
+}
+
+.layui-menu .layui-menu-panel .layui-menu-panel-item .close-icon {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    right: 8px;
+    top: 5px;
+    z-index: 999;
+}
+
+.layui-menu .layui-menu-panel .layui-menu-panel-item .close-icon:hover::before,
+.layui-menu .layui-menu-panel .layui-menu-panel-item .close-icon:hover::after {
+    background-color: #51b66e;
+}
+
+.layui-menu .layui-menu-panel .layui-menu-panel-item .close-icon::before,
+.layui-menu .layui-menu-panel .layui-menu-panel-item .close-icon::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #000;
+}
+
+.layui-menu .layui-menu-panel .layui-menu-panel-item .close-icon::before {
+    transform: rotate(45deg);
+}
+
+.layui-menu .layui-menu-panel .layui-menu-panel-item .close-icon::after {
+    transform: rotate(-45deg);
+}
+
+.layui-menu .layui-menu-panel .layui-menu-item-checked::after {
+    left: 0;
+    border-right: 0;
+    border-bottom: 3px solid #5fb878;
+}
+
+.layui-menu .layui-menu-avater-panel {
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.layui-menu .layui-menu-avater-panel img {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px 12px 12px 12px;
+    border: 1px solid #ffffff;
+}
+
+.layui-menu .layui-menu-avater-panel span {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-right: 10px;
+}
+
+.layui-menu .layui-menu-avater-panel span p {
+    font-size: 16px;
+    font-family: Source Han Sans CN-Bold, Source Han Sans CN;
+    font-weight: bold;
+    color: #fff;
+}
+
+.layui-menu .layui-menu-avater-panel span .user-more-icon {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 13px solid #888;
+    border-radius: 3px 3px 0px 0px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.logo-text1 {
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+/* 顶部栏-end */
+
+/* 内容栏-start */
+.layui-table-cell p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.layui-layout-admin .layui-body {
+    position: fixed;
+    top: 60px;
+    left: 0px;
+    margin: 3px 3px 0px 3px;
+}
+
+.layui-layout-admin .layui-table-view {
+    margin: 0;
+}
+
+.layui-table-grid-down {
+    display: none !important;
+}
+
+td .layui-table-cell {
+    font-weight: bolder;
+    color: #181818;
+    font-size: 18px;
+    height: auto !important;
+}
+
+.layui-table tbody tr:hover,
+.layui-table-hover,
+.layui-table-click {
+    background-color: #dfdfdf;
+}
+
+/* 表格工具栏-start */
+.layui-table-tool {
+    padding: 0;
+}
+
+.layui-table-tool .layui-table-tool-temp {
+    display: flex;
+    justify-content: space-between;
+    min-height: 50px;
+    padding: 0 12px 0 50px;
+}
+
+.layui-table-tool .layui-table-tool-temp .monitorbook-cls-toolbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.layui-table-tool .layui-table-tool-temp .monitorbook-cls-toolbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.layui-table-tool .layui-table-tool-temp .monitorbook-cls-toolbar-right ul.layui-table-tool-panel {
+    position: unset;
+}
+
+.tool-temp-button {
+    font-weight: bolder;
+    width: 100px;
+}
+
+.tool-submit-button {
+    font-weight: bolder;
+    width: 160px;
+    background-color: #ffb800;
+    color: #282828;
+}
+
+.tool-submit-button:hover {
+    opacity: 0.7;
+    color: #282828;
+}
+
+/* 表格工具栏-end */
+
+/* 表格-start */
+.layui-table-cell {
+    padding: 0 3px;
+}
+
+/* 表格-end */
+
+/* 表格表头-start */
+.layui-table-header .layui-table-cell {
+    color: #181818;
+    font-size: 16px;
+    height: 40px !important;
+    line-height: 40px !important;
+}
+
+.layui-table-header .layui-table-cell span {
+    font-weight: bold;
+    white-space: pre-line;
+}
+
+/* 表格表头-end */
+
+/* cell层-start */
+td[data-key="1-0-3"] div.layui-table-cell.laytable-cell-1-0-3 {
+    text-align: left;
+    padding-left: 20px;
+}
+
+td[data-key="1-0-4"] div.layui-table-cell.laytable-cell-1-0-4 {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.cls-data-field {
+    display: inline-block;
+    width: 175px;
+}
+
+.cls-data-value {
+    display: inline-block;
+    width: 300px;
+}
+
+.cls-overhidden {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* cell层-end */
+
+/* 内容栏-end */
