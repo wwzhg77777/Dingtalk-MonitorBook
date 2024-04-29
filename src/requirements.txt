@@ -1,0 +1,6 @@
+DingtalkChatbot==1.5.7
+Flask==2.3.2
+pycryptodome==3.18.0
+PyMySQL==1.0.3
+Requests==2.31.0
+urllib3==2.2.1
