@@ -16,7 +16,7 @@ class CONST:
     应用程序的常量表
     '''
 
-    ROOTPATH = r'/www/wwwroot/dingtalk-monitorbook/'
+    ROOTPATH = r'/www/wwwroot/Dingtalk-MonitorBook/'
     '''应用程序的根目录'''
 
     SERVICE_URI_HOST = 'nginx.mysite.com'

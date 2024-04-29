@@ -14,7 +14,7 @@ import os
 import sys
 import time
 
-ROOTPATH = r'/www/wwwroot/dingtalk-monitorbook/'
+ROOTPATH = r'/www/wwwroot/Dingtalk-MonitorBook/'
 
 # 定时任务cron清除前一天的temp信息
 if __name__ == '__main__':

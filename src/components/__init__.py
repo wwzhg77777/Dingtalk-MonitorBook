@@ -17,7 +17,7 @@ import sys
 import time
 import datetime
 
-ROOTPATH = r'/www/wwwroot/dingtalk-monitorbook/'
+ROOTPATH = r'/www/wwwroot/Dingtalk-MonitorBook/'
 if os.path.join(ROOTPATH, 'src') not in sys.path:
     sys.path.append(os.path.join(ROOTPATH, 'src'))
 
