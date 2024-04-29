@@ -20,7 +20,6 @@ from components.DingtalkOpenAPI import DingtalkOpenAPI
 from components.LocalOpenAPI import LocalOpenAPI
 from components.MySQLHandle import MySQLHandle
 from utils.utils_config import DD_CONFIG_GLOBAL, DD_CONFIG_CALLBACK_0001
-from utils.utils_const import CONST
 from utils.utils_func import unix2formatTime
 from utils.utils_mysqli import get_insert_sql
 from dingtalkchatbot.chatbot import DingtalkChatbot
