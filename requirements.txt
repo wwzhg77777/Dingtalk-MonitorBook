@@ -4,4 +4,3 @@ PyMySQL
 requests
 urllib3
 Crypto
-pycrypto

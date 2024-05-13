@@ -19,14 +19,14 @@ class CONST:
     ROOTPATH = r'/www/wwwroot/Dingtalk-MonitorBook/'
     '''应用程序的根目录'''
 
-    SERVICE_URI_HOST = 'nginx.mysite.com'
-    '''nginx服务器的主机名称'''
+    WEB_URI_SCHEME = 'https'
+    '''HTTP协议簇'''
 
     SERVICE_URI_POST = 8000
     '''nginx服务器的web站点监听端口'''
 
-    WEB_URI_SCHEME = 'https'
-    '''HTTP协议簇'''
+    SERVICE_URI_HOST = '0.0.0.0'
+    '''nginx服务器的主机名称'''
 
     WEB_URI_HOST = 'monitor-book.mysite.com'
     '''web站点的主机名称'''
