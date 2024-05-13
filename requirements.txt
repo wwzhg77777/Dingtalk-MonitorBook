@@ -3,4 +3,6 @@ Flask
 PyMySQL
 requests
 urllib3
+wheel
 Crypto
+pycryptodome
