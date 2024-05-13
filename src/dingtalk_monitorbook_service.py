@@ -34,7 +34,7 @@ app = Flask(__name__)
 resp_headers = {
     'Access-Control-Allow-Credentials': 'false',
     'Access-Control-Allow-Headers': 'Content-Type,X-Requested-with',
-    'Access-Control-Allow-Origin': '*',
+    'Access-Control-Allow-Origin': 'https://oabook-monitor.uwellit.com',
 }
 
 ding_api = DingtalkOpenAPI(app_key_=DD_CONST.APP_KEY, app_secret_=DD_CONST.APP_SECRET, g_api_uri_host_=DD_CONST.API_URI_HOST)
