@@ -1,7 +1,7 @@
 DingtalkChatbot
 Flask
 PyMySQL
-Requests
+requests
 urllib3
 Crypto
 pycrypto
